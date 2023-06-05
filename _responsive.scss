@@ -1,0 +1,44 @@
+@media screen and (max-width:1000px){
+    body{
+        width: 100%;
+    }
+
+    .logo a{
+        width: 100%;
+        background-position: -180px 0px;
+    }
+
+    .badge{
+        right: 20px;
+    }
+   
+
+   .post{
+        padding-left:35px;
+        padding-right:35px;
+
+        .post-content{
+            p,
+            h2,
+            h3{
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+@media screen and ( max-width:800px ){
+    .logo{
+        top:0px;
+        
+        a{
+            color:  #222;
+            background: none;
+            text-indent: 0;
+            text-decoration: none;
+            font-size: 95px;
+            line-height: 76px;
+        }
+    }
+}
